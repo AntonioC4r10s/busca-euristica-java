@@ -55,8 +55,8 @@ public class Gulosa {
 	}
 public static void main(String args[]){
 Mapa mapa = new Mapa();
-Gulosa g = new Gulosa(mapa.getCuritiba());
-g.buscar(mapa.getPortoUniao());
+Gulosa g = new Gulosa(mapa.getBuscharest());
+g.buscar(mapa.getArad());
         
 
 }

@@ -51,11 +51,11 @@ public class VetorOrdenado {
         Mapa mapa = new Mapa();
         VetorOrdenado vetor = new VetorOrdenado(5);
         
-        vetor.inserir(mapa.getPortoUniao()); // 203
+/*        vetor.inserir(mapa.getPortoUniao()); // 203
         vetor.inserir(mapa.getPauloFrontin()); // 172
         vetor.inserir(mapa.getBalsaNova()); // 41
         vetor.inserir(mapa.getPalmeira()); // 59
-        
+  */      
         vetor.mostrar();
     }
 }
