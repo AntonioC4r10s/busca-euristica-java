@@ -48,8 +48,8 @@ public class AEstrela {
         }
     public static void main(String args[]){
         Mapa mapa = new Mapa(); //acesso a toda as cidades
-        AEstrela a = new AEstrela(mapa.getCuritiba()); 
-        a.buscar(mapa.getPortoUniao());
+        AEstrela a = new AEstrela(mapa.getBuscharest()); 
+        a.buscar(mapa.getArad());
           
           
       }  
